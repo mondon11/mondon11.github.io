@@ -1684,7 +1684,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd553;
+  background: #717558;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2771,4 +2771,10 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+* {
+  cursor: url("http://ouzjv2e18.bkt.clouddn.com/Magic_wand_32px_1185779_easyicon.net.ico"), auto !important;
+}
+:active {
+  cursor: url("http://ouzjv2e18.bkt.clouddn.com/Magic_wand_24px_1185779_easyicon.net.ico"), auto !important;
 }
