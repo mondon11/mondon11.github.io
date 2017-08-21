@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 h1,
@@ -956,9 +956,6 @@ pre .javascript .function {
 .back-to-top.back-to-top-on {
   bottom: 19px;
 }
-.header {
-  background: url("http://ouzjv2e18.bkt.clouddn.com/header2.jpg");
-}
 .header-inner {
   position: relative;
 }
@@ -1104,7 +1101,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: 10px auto 15px;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -1684,7 +1681,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc1a4;
+  background: #55624f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2653,12 +2650,12 @@ hr {
 }
 @media (max-width: 767px) {
   .posts-expand .post-title {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 @media (min-width: 1600px) {
   .posts-expand .post-title {
-    font-size: 26px;
+    font-size: 30px;
   }
 }
 .posts-expand .post-title:hover:before {
@@ -2688,7 +2685,7 @@ hr {
 .post-button a {
   margin: 0 8px 8px 0 !important;
   padding: 0;
-  font-size: 14px;
+  font-size: 18px;
   color: #666;
   background: none;
   border: none;
@@ -2697,12 +2694,12 @@ hr {
 }
 @media (max-width: 767px) {
   .post-button a {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 @media (min-width: 1600px) {
   .post-button a {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 .post-button a:hover {
@@ -2777,4 +2774,8 @@ hr {
 }
 :active {
   cursor: url("http://ouzjv2e18.bkt.clouddn.com/Magic_wand_24px_1185779_easyicon.net.ico"), auto !important;
+}
+body {
+  background: url("http://ouzjv2e18.bkt.clouddn.com/sport.png");
+  background-attachment: fixed;
 }
