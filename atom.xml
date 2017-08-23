@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-23T09:39:24.733Z</updated>
+  <updated>2017-08-23T11:11:21.699Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/08/22/%E4%BD%BF%E7%94%A8Flask%E4%B8%BA%E5%AF%B9%E7%AD%94%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%86%99%E4%B8%AARESTful%20API%20/"/>
     <id>http://yoursite.com/2017/08/22/使用Flask为对答机器人写个RESTful API /</id>
     <published>2017-08-22T08:52:35.000Z</published>
-    <updated>2017-08-23T09:39:24.733Z</updated>
+    <updated>2017-08-23T11:11:21.699Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>During his own Google interview, Jeff Dean was asked the  implications if P=NP were true.  He said, “P = 0 or N = 1.” Then, before  the interviewer had even finished laughing, Jeff examined Google’s  public certificate and wrote the private key on the whiteboard. LOL</p>
@@ -85,10 +85,10 @@
 </tbody>
 </table>
 <p>其他错误请参考<a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" target="_blank" rel="external">这里</a>。</p>
-<h1 id="遇坑小记"><a href="#遇坑小记" class="headerlink" title="遇坑小记"></a>遇坑小记</h1><p>以上示例代码在本地windows 7+python 2.7.13 和 ubuntu16.04+python 3.5.1运行成功，在服务器端 CentOS 7+python 3.5.4 遇到了2个小坑：</p>
+<h1 id="遇坑小记"><a href="#遇坑小记" class="headerlink" title="遇坑小记"></a>遇坑小记</h1><p>以上示例代码在python2.7环境可以成功运行。在python3环境中需要注意：</p>
 <ul>
-<li>POST以不加报头的json形式传输数据时，服务器端request.headers没有’Content-Type’这一项，而在本地环境上’Content-Type’为空。 </li>
-<li>服务器端request.get_data()方法返回bytes，转成string需要decode(‘ascii’)。而本地环境request.get_data()返回string。</li>
+<li>POST以不加报头的json形式传输数据时，对于服务器端，python3上 request.headers没有’Content-Type’这一项，而python2上’Content-Type’为空。 </li>
+<li><a href="http://www.cnblogs.com/txw1958/archive/2012/07/19/2598885.html" target="_blank" rel="external">python3最重要的新特性大概要算是对文本和二进制数据作了更为清晰的区分</a>。python3 flask request.get_data()方法返回bytes，转成string需要decode(‘ascii’)。而python2 flask request.get_data()返回string。客户端打印结果req.content也有bytes和string的差别。</li>
 </ul>
 ]]></content>
     
@@ -104,9 +104,9 @@
       <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="RESTful" scheme="http://yoursite.com/tags/RESTful/"/>
-    
       <category term="Flask" scheme="http://yoursite.com/tags/Flask/"/>
+    
+      <category term="RESTful" scheme="http://yoursite.com/tags/RESTful/"/>
     
       <category term="HTTP" scheme="http://yoursite.com/tags/HTTP/"/>
     
@@ -175,9 +175,9 @@
       <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Flask" scheme="http://yoursite.com/tags/Flask/"/>
-    
       <category term="Tensorflow" scheme="http://yoursite.com/tags/Tensorflow/"/>
+    
+      <category term="Flask" scheme="http://yoursite.com/tags/Flask/"/>
     
       <category term="vps" scheme="http://yoursite.com/tags/vps/"/>
     
