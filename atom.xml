@@ -149,7 +149,7 @@
     <link href="http://yoursite.com/2017/08/21/Tensorflow+Flask+Nginx+Gunicorn%E5%9C%A8%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84%E9%83%A8%E7%BD%B2/"/>
     <id>http://yoursite.com/2017/08/21/Tensorflow+Flask+Nginx+Gunicorn在阿里云的部署/</id>
     <published>2017-08-21T08:52:35.000Z</published>
-    <updated>2017-08-31T01:05:09.338Z</updated>
+    <updated>2017-08-31T10:14:38.883Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><strong>生命在于折腾！</strong><br> 　　　　 　<strong>-某网友</strong> </p>
@@ -187,7 +187,7 @@
 <p>我们再来安装Gunicorn：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># pip install gunicorn</span></div></pre></td></tr></table></figure></p>
 <p>好了，所有的配置已经完成，接下来就是如何启动我们的项目了。我们先cd到hello.py所在的目录下，然后依次启动Nginx、Gunicorn，我们的hello.py项目就启动了！（注意，这里127.0.0.1:8000 与上面nginx配置要一致）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># nginx</span></div><div class="line"><span class="comment"># nohup gunicorn -b 127.0.0.1:8000 hello:app &amp;</span></div></pre></td></tr></table></figure></p>
 <p>访问公网IP来验证下：<br><img src="http://ouzjv2e18.bkt.clouddn.com/helloworld2.png" alt="helloworld.png"></p>
-<h1 id="Tensorflow项目的部署"><a href="#Tensorflow项目的部署" class="headerlink" title="Tensorflow项目的部署"></a>Tensorflow项目的部署</h1><p>既然”hello world”项目都已经实现了，Tensorflow项目也是如出一辙了。<br>先来看下我项目的截图吧，Web前端设计来自<a href="https://github.com/undersail/easybot" target="_blank" rel="external">undersail</a>，很漂亮！<br><img src="http://ouzjv2e18.bkt.clouddn.com/msbot.png" alt="msbot.png"><br>在本地，我已经将模型训练好了，因此，我们只要把模型和代码一并上传。然后在启动文件中（类似于上面的hello.py），先初始化并加载模型，然后开始监听端口。有post请求时，将接收到的’msg’信息feed到我们的seq2seq模型，就可以得到对答机器人的回答了。<br>在后面的blog中，我将介绍下这个对答机器人是如何实现的，敬请期待~</p>
+<h1 id="Tensorflow项目的部署"><a href="#Tensorflow项目的部署" class="headerlink" title="Tensorflow项目的部署"></a>Tensorflow项目的部署</h1><p>既然”hello world”项目都已经实现了，Tensorflow项目也是如出一辙了。<br>先来看下我项目的截图吧，Web前端设计来自<a href="https://github.com/undersail/easybot" target="_blank" rel="external">undersail</a>，很漂亮！<br><img src="http://ouzjv2e18.bkt.clouddn.com/msbot_new.png" alt="msbot.png"><br>在本地，我已经将模型训练好了，因此，我们只要把模型和代码一并上传。然后在启动文件中（类似于上面的hello.py），先初始化并加载模型，然后开始监听端口。有post请求时，将接收到的’msg’信息feed到我们的seq2seq模型，就可以得到对答机器人的回答了。<br>项目代码已托管于<a href="https://github.com/MSintern/msbot_seq2seq" target="_blank" rel="external">github</a>，我们下篇博客见~</p>
 ]]></content>
     
     <summary type="html">
