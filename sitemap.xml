@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://houjiateng.com/2017/08/21/Tensorflow+Flask+Nginx+Gunicorn%E5%9C%A8%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84%E9%83%A8%E7%BD%B2/</loc>
+    
+    <lastmod>2017-08-31T01:05:09.338Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://houjiateng.com/about/index.html</loc>
     
     <lastmod>2017-08-30T14:12:10.494Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://houjiateng.com/2017/08/22/%E4%BD%BF%E7%94%A8Flask%E4%B8%BA%E5%AF%B9%E7%AD%94%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%86%99%E4%B8%AARESTful%20API%20/</loc>
     
     <lastmod>2017-08-24T03:28:35.338Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://houjiateng.com/2017/08/21/Tensorflow+Flask+Nginx+Gunicorn%E5%9C%A8%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84%E9%83%A8%E7%BD%B2/</loc>
-    
-    <lastmod>2017-08-23T11:19:50.835Z</lastmod>
     
   </url>
   
