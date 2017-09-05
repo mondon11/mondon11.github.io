@@ -32,8 +32,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>RESTful</tag>
         <tag>Flask</tag>
+        <tag>RESTful</tag>
         <tag>HTTP</tag>
       </tags>
   </entry>
@@ -45,8 +45,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>Flask</tag>
         <tag>Tensorflow</tag>
+        <tag>Flask</tag>
         <tag>vps</tag>
         <tag>Nginx</tag>
         <tag>Gunicorn</tag>

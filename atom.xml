@@ -172,9 +172,9 @@
       <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="RESTful" scheme="http://yoursite.com/tags/RESTful/"/>
-    
       <category term="Flask" scheme="http://yoursite.com/tags/Flask/"/>
+    
+      <category term="RESTful" scheme="http://yoursite.com/tags/RESTful/"/>
     
       <category term="HTTP" scheme="http://yoursite.com/tags/HTTP/"/>
     
@@ -243,9 +243,9 @@
       <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Flask" scheme="http://yoursite.com/tags/Flask/"/>
-    
       <category term="Tensorflow" scheme="http://yoursite.com/tags/Tensorflow/"/>
+    
+      <category term="Flask" scheme="http://yoursite.com/tags/Flask/"/>
     
       <category term="vps" scheme="http://yoursite.com/tags/vps/"/>
     
