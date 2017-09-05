@@ -172,9 +172,9 @@
       <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
-    
       <category term="RESTful" scheme="http://houjiateng.com/tags/RESTful/"/>
+    
+      <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
     
       <category term="HTTP" scheme="http://houjiateng.com/tags/HTTP/"/>
     
@@ -243,9 +243,9 @@
       <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Tensorflow" scheme="http://houjiateng.com/tags/Tensorflow/"/>
-    
       <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
+    
+      <category term="Tensorflow" scheme="http://houjiateng.com/tags/Tensorflow/"/>
     
       <category term="vps" scheme="http://houjiateng.com/tags/vps/"/>
     

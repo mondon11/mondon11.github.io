@@ -35,9 +35,9 @@
         <title>Tensorflow+Flask+Nginx+Gunicorn 在阿里云的部署</title>
         <pubTime>2017-08-21T08:52:35.000Z</pubTime>
         
-        <tag>Tensorflow</tag>
-         
         <tag>Flask</tag>
+         
+        <tag>Tensorflow</tag>
          
         <tag>vps</tag>
          
@@ -84,9 +84,9 @@
         <title>使用Flask为对答机器人写个RESTful API</title>
         <pubTime>2017-08-22T08:52:35.000Z</pubTime>
         
-        <tag>Flask</tag>
-         
         <tag>RESTful</tag>
+         
+        <tag>Flask</tag>
          
         <tag>HTTP</tag>
          
