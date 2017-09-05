@@ -20,7 +20,7 @@
          
            
              
-              <breadCrumb title="学习" url="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+              <breadCrumb title="学习" url="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
           
         </display>
     </data>
@@ -35,9 +35,9 @@
         <title>Tensorflow+Flask+Nginx+Gunicorn 在阿里云的部署</title>
         <pubTime>2017-08-21T08:52:35.000Z</pubTime>
         
-        <tag>Tensorflow</tag>
-         
         <tag>Flask</tag>
+         
+        <tag>Tensorflow</tag>
          
         <tag>vps</tag>
          
@@ -48,7 +48,7 @@
          
            
              
-              <breadCrumb title="学习" url="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+              <breadCrumb title="学习" url="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
           
         </display>
     </data>
@@ -69,7 +69,7 @@
          
            
              
-              <breadCrumb title="学习" url="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+              <breadCrumb title="学习" url="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
           
         </display>
     </data>
@@ -84,16 +84,16 @@
         <title>使用Flask为对答机器人写个RESTful API</title>
         <pubTime>2017-08-22T08:52:35.000Z</pubTime>
         
-        <tag>Flask</tag>
-         
         <tag>RESTful</tag>
+         
+        <tag>Flask</tag>
          
         <tag>HTTP</tag>
          
          
            
              
-              <breadCrumb title="学习" url="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+              <breadCrumb title="学习" url="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
           
         </display>
     </data>
