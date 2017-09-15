@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://houjiateng.com/2017/09/13/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2017-09-13T07:39:38.015Z</lastmod>
+    <lastmod>2017-09-15T02:06:33.152Z</lastmod>
     <data>
         <display>
         <title>随记</title>
@@ -77,9 +77,9 @@
         <title>Tensorflow+Flask+Nginx+Gunicorn 在阿里云的部署</title>
         <pubTime>2017-08-21T08:52:35.000Z</pubTime>
         
-        <tag>Flask</tag>
-         
         <tag>Tensorflow</tag>
+         
+        <tag>Flask</tag>
          
         <tag>vps</tag>
          
@@ -126,9 +126,9 @@
         <title>使用Flask为对答机器人写个RESTful API</title>
         <pubTime>2017-08-22T08:52:35.000Z</pubTime>
         
-        <tag>RESTful</tag>
-         
         <tag>Flask</tag>
+         
+        <tag>RESTful</tag>
          
         <tag>HTTP</tag>
          
