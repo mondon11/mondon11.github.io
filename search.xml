@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[随记2]]></title>
+    <url>%2F2017%2F09%2F22%2F%E9%9A%8F%E8%AE%B02%2F</url>
+    <content type="text"><![CDATA[珍惜往事的人也一定有一颗温柔爱人的心。当我们的亲人远行或故世之后，我们会不由自主地百般追念他们的好处，悔恨自己的疏忽和过错。然而，事实上，即使尚未生离死别，我们所爱的人何尝不是时时刻刻离我们而去呢？浩渺宇宙间，任何一个生灵的降生都是偶然的，离去却是必然的；一个生灵与另一个生灵的相遇总是千载一瞬，分别却是万劫不复。说到底，谁和谁不同是这空空世界里的天涯论落人？在平凡的日常生活中，你已经习惯了和你所爱的人的相处，仿佛日子会这样无限延续下去。忽然有一天，你心头一凉，想起时光在飞快流逝，正无可挽回地把你、你所爱的人以及你们共同拥有的一切带走。于是，你心中升起一股柔情，想要保护你的爱人免遭时光劫掠。你还深切感到，平凡生活中这些简单的幸福也是多么宝贵，有着稍纵即逝的惊人的美… -周国平]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>散文</tag>
+        <tag>周国平</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[随记]]></title>
     <url>%2F2017%2F09%2F13%2F%E9%9A%8F%E8%AE%B0%2F</url>
     <content type="text"><![CDATA[To see a world in a grain of sandAnd a heaven in a wild flowerHold infinity in the palm of your handAnd eternity in an hour. -William Blake 今天在逛我爱自然语言处理博客时，看到了一系列很好的文章，叫做《正态分布的前世今生》，共8篇，来自RICKJIN。我特别喜欢这样深入浅出，娓娓而谈的文章，特地来记录分享下。另外推荐一本由C.R.Rao写的统计与真理-怎样运用偶然性，我觉得这种类型的文章书籍不受大众欢迎很难吧！]]></content>
@@ -55,8 +67,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>Flask</tag>
         <tag>RESTful</tag>
+        <tag>Flask</tag>
         <tag>HTTP</tag>
       </tags>
   </entry>
@@ -68,8 +80,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>Tensorflow</tag>
         <tag>Flask</tag>
+        <tag>Tensorflow</tag>
         <tag>vps</tag>
         <tag>Nginx</tag>
         <tag>Gunicorn</tag>

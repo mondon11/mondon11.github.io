@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://houjiateng.com/"/>
-  <updated>2017-09-15T02:06:33.152Z</updated>
+  <updated>2017-09-22T11:02:55.764Z</updated>
   <id>http://houjiateng.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随记2</title>
+    <link href="http://houjiateng.com/2017/09/22/%E9%9A%8F%E8%AE%B02/"/>
+    <id>http://houjiateng.com/2017/09/22/随记2/</id>
+    <published>2017-09-22T08:52:35.000Z</published>
+    <updated>2017-09-22T11:02:55.764Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>珍惜往事的人也一定有一颗温柔爱人的心。<br>当我们的亲人远行或故世之后，我们会不由自主地百般追念他们的好处，悔恨自己的疏忽和过错。然而，事实上，即使尚未生离死别，我们所爱的人何尝不是时时刻刻离我们而去呢？<br>浩渺宇宙间，任何一个生灵的降生都是偶然的，离去却是必然的；一个生灵与另一个生灵的相遇总是千载一瞬，分别却是万劫不复。说到底，谁和谁不同是这空空世界里的天涯论落人？<br>在平凡的日常生活中，你已经习惯了和你所爱的人的相处，仿佛日子会这样无限延续下去。忽然有一天，你心头一凉，想起时光在飞快流逝，正无可挽回地把你、你所爱的人以及你们共同拥有的一切带走。于是，你心中升起一股柔情，想要保护你的爱人免遭时光劫掠。你还深切感到，平凡生活中这些简单的幸福也是多么宝贵，有着稍纵即逝的惊人的美…<br>　　　　　　　　　　　　　　　　　　　　　　　　　　　　-周国平</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;珍惜往事的人也一定有一颗温柔爱人的心。&lt;br&gt;当我们的亲人远行或故世之后，我们会不由自主地百般追念他们的好处，悔恨自己的疏忽和过错。然而，事实上，即使尚未生离死别，我们所爱的人何尝不是时时刻刻离我们而去呢？&lt;br&gt;浩渺宇宙间，任何一个生灵的降生都是
+    
+    </summary>
+    
+      <category term="其他" scheme="http://houjiateng.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="散文" scheme="http://houjiateng.com/tags/%E6%95%A3%E6%96%87/"/>
+    
+      <category term="周国平" scheme="http://houjiateng.com/tags/%E5%91%A8%E5%9B%BD%E5%B9%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>随记</title>
@@ -232,9 +260,9 @@
       <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
-    
       <category term="RESTful" scheme="http://houjiateng.com/tags/RESTful/"/>
+    
+      <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
     
       <category term="HTTP" scheme="http://houjiateng.com/tags/HTTP/"/>
     
@@ -303,9 +331,9 @@
       <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Tensorflow" scheme="http://houjiateng.com/tags/Tensorflow/"/>
-    
       <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
+    
+      <category term="Tensorflow" scheme="http://houjiateng.com/tags/Tensorflow/"/>
     
       <category term="vps" scheme="http://houjiateng.com/tags/vps/"/>
     
