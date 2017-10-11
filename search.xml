@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[利用python itchat库实现微信操控电脑]]></title>
+    <url>%2F2017%2F10%2F11%2F%E5%88%A9%E7%94%A8python%20itchat%E5%BA%93%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%93%8D%E6%8E%A7%E7%94%B5%E8%84%91%2F</url>
+    <content type="text"><![CDATA[古之为英雄豪杰者，不过面厚心黑而已。 - 李宗吾 最近因为要做微信版的智能客服系统，所以看了看有关wechat的api，发现了一个很好的python库itchat，于是乎想用它做一些好玩的有用的程序。想到最近挂机跑深度学习模型的痛楚，遂决定做一个微信版的remote-CMD，可以用手机微信远程监控电脑运行状态（截屏），同时可以远程通过命令提示符操作PC，实现搜索电脑文件并下载到手机等“炫酷”的功能，先上代码吧！ 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051#coding=utf8import itchatfrom PIL import ImageGrabimport timeimport osimport redef get_screen_img(filename): img=ImageGrab.grab() img.save(filename)@itchat.msg_register(itchat.content.TEXT)def get_content(msg): content=msg['Text'] if msg['ToUserName']=='filehelper': print content if content=='jp': print '$send screen image' time_now=time.strftime('%Y_%m_%d_%H_%M_%S',time.localtime(time.time())) picname=time_now+'.png' get_screen_img(picname) itchat.send('@img@'+picname,'filehelper') elif content.split()[0]=='xz': print '$send file' try: itchat.send_file(content.split()[1],'filehelper') except: itchat.send(u'命令无效!','filehelper') elif content.split()[0]=='cd': try: os.chdir(content.split()[1]) except: itchat.send(u'命令无效!','filehelper') elif content.split()[0]=='dir': try: ret=os.popen(content).read() itchat.send(ret.decode('gbk'),'filehelper') except: itchat.send(u'命令无效或内部错误!','filehelper') else: try: ret=os.popen(content).read().decode('utf-8') itchat.send(ret,'filehelper') except: itchat.send(u'命令无效或内部错误!','filehelper') else: passitchat.auto_login(hotReload=True)itchat.run() 温馨小提示： 开发环境：win7 64bit + python 2.7 由于requests的编码问题，需要将fields.py文件放入 Lib\site-packages\urllib3下覆盖原文件才可传输中文名文件。（我的路径是C:\Users\mondon\Anaconda2\Lib\site-packages\urllib3，仅供参考。如果上面的下载链接打不开，可点击这个，将其复制下来另存为fields.py即可） 使用方法：3.1 首先需要添加“文件传输助手”为好友。以后的操作都是通过与“助手”文字对话完成的。3.2 运行程序，手机扫码登录。登录成功控制台会有提示。3.3 几个常见功能命令：截屏：jp下载：xz File (如 -xz c:\test\1.txt)常见cmd：ls (查看当前路径下所有目录); cd FilePath (切换路径，如cd c:\test); dir File /s (查找文件，如 dir c:*23.txt /s，使下载更智能) … 最后祝你，身体健康，再见！]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>wechat</tag>
+        <tag>itchat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[随记2]]></title>
     <url>%2F2017%2F09%2F22%2F%E9%9A%8F%E8%AE%B02%2F</url>
     <content type="text"><![CDATA[珍惜往事的人也一定有一颗温柔爱人的心。当我们的亲人远行或故世之后，我们会不由自主地百般追念他们的好处，悔恨自己的疏忽和过错。然而，事实上，即使尚未生离死别，我们所爱的人何尝不是时时刻刻离我们而去呢？浩渺宇宙间，任何一个生灵的降生都是偶然的，离去却是必然的；一个生灵与另一个生灵的相遇总是千载一瞬，分别却是万劫不复。说到底，谁和谁不同是这空空世界里的天涯论落人？在平凡的日常生活中，你已经习惯了和你所爱的人的相处，仿佛日子会这样无限延续下去。忽然有一天，你心头一凉，想起时光在飞快流逝，正无可挽回地把你、你所爱的人以及你们共同拥有的一切带走。于是，你心中升起一股柔情，想要保护你的爱人免遭时光劫掠。你还深切感到，平凡生活中这些简单的幸福也是多么宝贵，有着稍纵即逝的惊人的美… -周国平]]></content>
@@ -67,8 +80,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>RESTful</tag>
         <tag>Flask</tag>
+        <tag>RESTful</tag>
         <tag>HTTP</tag>
       </tags>
   </entry>
@@ -80,8 +93,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>Flask</tag>
         <tag>Tensorflow</tag>
+        <tag>Flask</tag>
         <tag>vps</tag>
         <tag>Nginx</tag>
         <tag>Gunicorn</tag>

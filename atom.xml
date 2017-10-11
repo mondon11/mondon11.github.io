@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://houjiateng.com/"/>
-  <updated>2017-09-22T11:02:55.764Z</updated>
+  <updated>2017-10-11T11:52:53.088Z</updated>
   <id>http://houjiateng.com/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用python itchat库实现微信操控电脑</title>
+    <link href="http://houjiateng.com/2017/10/11/%E5%88%A9%E7%94%A8python%20itchat%E5%BA%93%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%93%8D%E6%8E%A7%E7%94%B5%E8%84%91/"/>
+    <id>http://houjiateng.com/2017/10/11/利用python itchat库实现微信操控电脑/</id>
+    <published>2017-10-11T08:52:35.000Z</published>
+    <updated>2017-10-11T11:52:53.088Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>古之为英雄豪杰者，不过面厚心黑而已。<br>　　　　　　　　　　　　　　　- 李宗吾</p>
+</blockquote>
+<p>最近因为要做微信版的智能客服系统，所以看了看有关wechat的api，发现了一个很好的python库<a href="http://itchat.readthedocs.io/zh/latest/" target="_blank" rel="external">itchat</a>，于是乎想用它做一些好玩的有用的程序。想到最近挂机跑深度学习模型的痛楚，遂决定做一个微信版的remote-CMD，可以用手机微信远程监控电脑运行状态（截屏），同时可以远程通过命令提示符操作PC，实现搜索电脑文件并下载到手机等“炫酷”的功能，先上代码吧！</p>
+<a id="more"></a> 
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#coding=utf8</span></div><div class="line"></div><div class="line"><span class="keyword">import</span> itchat</div><div class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> ImageGrab</div><div class="line"><span class="keyword">import</span> time</div><div class="line"><span class="keyword">import</span> os</div><div class="line"><span class="keyword">import</span> re</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_screen_img</span><span class="params">(filename)</span>:</span></div><div class="line">    img=ImageGrab.grab()</div><div class="line">    img.save(filename)</div><div class="line"></div><div class="line"><span class="meta">@itchat.msg_register(itchat.content.TEXT)</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_content</span><span class="params">(msg)</span>:</span></div><div class="line">    content=msg[<span class="string">'Text'</span>]</div><div class="line">    <span class="keyword">if</span> msg[<span class="string">'ToUserName'</span>]==<span class="string">'filehelper'</span>:</div><div class="line">        <span class="keyword">print</span> content</div><div class="line">        <span class="keyword">if</span> content==<span class="string">'jp'</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'$send screen image'</span></div><div class="line">            time_now=time.strftime(<span class="string">'%Y_%m_%d_%H_%M_%S'</span>,time.localtime(time.time()))</div><div class="line">            picname=time_now+<span class="string">'.png'</span></div><div class="line">            get_screen_img(picname)</div><div class="line">            itchat.send(<span class="string">'@img@'</span>+picname,<span class="string">'filehelper'</span>)</div><div class="line">        <span class="keyword">elif</span> content.split()[<span class="number">0</span>]==<span class="string">'xz'</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'$send file'</span></div><div class="line">            <span class="keyword">try</span>:</div><div class="line">                itchat.send_file(content.split()[<span class="number">1</span>],<span class="string">'filehelper'</span>)</div><div class="line">            <span class="keyword">except</span>:</div><div class="line">                itchat.send(<span class="string">u'命令无效!'</span>,<span class="string">'filehelper'</span>)</div><div class="line">        <span class="keyword">elif</span> content.split()[<span class="number">0</span>]==<span class="string">'cd'</span>:</div><div class="line">            <span class="keyword">try</span>:</div><div class="line">                os.chdir(content.split()[<span class="number">1</span>])</div><div class="line">            <span class="keyword">except</span>:</div><div class="line">                itchat.send(<span class="string">u'命令无效!'</span>,<span class="string">'filehelper'</span>)</div><div class="line">        <span class="keyword">elif</span> content.split()[<span class="number">0</span>]==<span class="string">'dir'</span>:</div><div class="line">            <span class="keyword">try</span>:</div><div class="line">                ret=os.popen(content).read()</div><div class="line">                itchat.send(ret.decode(<span class="string">'gbk'</span>),<span class="string">'filehelper'</span>)</div><div class="line">            <span class="keyword">except</span>:</div><div class="line">                itchat.send(<span class="string">u'命令无效或内部错误!'</span>,<span class="string">'filehelper'</span>)</div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            <span class="keyword">try</span>:</div><div class="line">                ret=os.popen(content).read().decode(<span class="string">'utf-8'</span>)</div><div class="line">                itchat.send(ret,<span class="string">'filehelper'</span>)</div><div class="line">            <span class="keyword">except</span>:</div><div class="line">                itchat.send(<span class="string">u'命令无效或内部错误!'</span>,<span class="string">'filehelper'</span>)</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">pass</span></div><div class="line"></div><div class="line">itchat.auto_login(hotReload=<span class="keyword">True</span>)</div><div class="line">itchat.run()</div></pre></td></tr></table></figure>
+<p>温馨小提示：</p>
+<ol>
+<li>开发环境：win7 64bit + python 2.7</li>
+<li>由于requests的编码问题，需要将<a href="https://gist.github.com/littlecodersh/9a0c5466f442d67d910f877744011705" target="_blank" rel="external">fields.py</a>文件放入 Lib\site-packages\urllib3下覆盖原文件才可传输中文名文件。（我的路径是C:\Users\mondon\Anaconda2\Lib\site-packages\urllib3，仅供参考。如果上面的下载链接打不开，可点击<a href="http://ouzjv2e18.bkt.clouddn.com/fields.py" target="_blank" rel="external">这个</a>，将其复制下来另存为fields.py即可）</li>
+<li>使用方法：<br>3.1 首先需要添加“文件传输助手”为好友。以后的操作都是通过与“助手”文字对话完成的。<br>3.2 运行程序，手机扫码登录。登录成功控制台会有提示。<br>3.3 几个常见功能命令：<br>截屏：jp<br>下载：xz File (如 -xz c:\test\1.txt)<br>常见cmd：ls (查看当前路径下所有目录); cd FilePath (切换路径，如cd c:\test); dir File /s (查找文件，如 dir c:*23.txt /s，使下载更智能) …</li>
+</ol>
+<p><img src="http://ouzjv2e18.bkt.clouddn.com/IMG_0994_small.png" alt="tip1"><br><img src="http://ouzjv2e18.bkt.clouddn.com/IMG_0995_small.png" alt="tip2"></p>
+<blockquote>
+<p>最后祝你，身体健康，再见！</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;古之为英雄豪杰者，不过面厚心黑而已。&lt;br&gt;　　　　　　　　　　　　　　　- 李宗吾&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最近因为要做微信版的智能客服系统，所以看了看有关wechat的api，发现了一个很好的python库&lt;a href=&quot;http://itchat.readthedocs.io/zh/latest/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;itchat&lt;/a&gt;，于是乎想用它做一些好玩的有用的程序。想到最近挂机跑深度学习模型的痛楚，遂决定做一个微信版的remote-CMD，可以用手机微信远程监控电脑运行状态（截屏），同时可以远程通过命令提示符操作PC，实现搜索电脑文件并下载到手机等“炫酷”的功能，先上代码吧！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="python" scheme="http://houjiateng.com/tags/python/"/>
+    
+      <category term="wechat" scheme="http://houjiateng.com/tags/wechat/"/>
+    
+      <category term="itchat" scheme="http://houjiateng.com/tags/itchat/"/>
+    
+  </entry>
   
   <entry>
     <title>随记2</title>
@@ -260,9 +305,9 @@
       <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="RESTful" scheme="http://houjiateng.com/tags/RESTful/"/>
-    
       <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
+    
+      <category term="RESTful" scheme="http://houjiateng.com/tags/RESTful/"/>
     
       <category term="HTTP" scheme="http://houjiateng.com/tags/HTTP/"/>
     
@@ -331,9 +376,9 @@
       <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
-    
       <category term="Tensorflow" scheme="http://houjiateng.com/tags/Tensorflow/"/>
+    
+      <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
     
       <category term="vps" scheme="http://houjiateng.com/tags/vps/"/>
     
