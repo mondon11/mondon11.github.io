@@ -4,6 +4,52 @@
 
     
   <url>
+    <loc>http://houjiateng.com/2017/10/17/%E5%9F%BA%E4%BA%8ETensorflow%20seq2seq%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E5%AE%9E%E7%8E%B0/</loc>
+    <lastmod>2017-10-17T06:33:52.627Z</lastmod>
+    <data>
+        <display>
+        <title>基于Tensorflow seq2seq模型的聊天机器人的实现</title>
+        <pubTime>2017-10-17T08:52:35.000Z</pubTime>
+        
+        <tag>Tensorflow</tag>
+         
+        <tag>seq2seq</tag>
+         
+        <tag>attention</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://houjiateng.com/2017/09/13/%E9%9A%8F%E8%AE%B0/</loc>
+    <lastmod>2017-10-17T06:15:37.937Z</lastmod>
+    <data>
+        <display>
+        <title>随记</title>
+        <pubTime>2017-09-13T08:52:35.000Z</pubTime>
+        
+        <tag>统计</tag>
+         
+        <tag>正态分布</tag>
+         
+         
+           
+             
+              <breadCrumb title="其他" url="http://houjiateng.com/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://houjiateng.com/2017/10/11/%E5%88%A9%E7%94%A8python%20itchat%E5%BA%93%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%93%8D%E6%8E%A7%E7%94%B5%E8%84%91/</loc>
     <lastmod>2017-10-12T01:12:09.630Z</lastmod>
     <data>
@@ -38,28 +84,6 @@
         <tag>散文</tag>
          
         <tag>周国平</tag>
-         
-         
-           
-             
-              <breadCrumb title="其他" url="http://houjiateng.com/categories/%E5%85%B6%E4%BB%96/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://houjiateng.com/2017/09/13/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2017-09-15T02:06:33.152Z</lastmod>
-    <data>
-        <display>
-        <title>随记</title>
-        <pubTime>2017-09-13T08:52:35.000Z</pubTime>
-        
-        <tag>统计</tag>
-         
-        <tag>正态分布</tag>
          
          
            
