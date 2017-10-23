@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[《经济学原理》 小记1]]></title>
+    <url>%2F2017%2F10%2F22%2F%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8E%9F%E7%90%86%E3%80%8B%20%E5%B0%8F%E8%AE%B01%2F</url>
+    <content type="text"><![CDATA[经济学十大原理：人们如何作出决策： 人们面临交替关系 某些东西的成本是为了得到它所放弃的东西 理性人考虑边际量 人们会对激励作出反应 人们如何相互交易： 贸易能使每个人状况更好 市场通常是组织经济活动的一种好方法 政府有时可以改善市场结果 整个经济如何运行： 一国的生活水平取决于它生产物品与劳务的能力 当政府发行过多货币时，物价上升 社会面临通货膨胀与失业之间的短期交替关系]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>经济学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Tensorflow Fall Symposium 2017 小记]]></title>
     <url>%2F2017%2F10%2F20%2FTensorflow%20Fall%20Symposium%202017%20%E5%B0%8F%E8%AE%B0%2F</url>
     <content type="text"><![CDATA[艺术的价值同其唤起的感情强度无关，后者可以无需艺术。 -昆德拉 CPU、GPU库：Intel: MKL-DNNNVIDIA: cuDNN 跨平台：2.1 deeplearn.js:deeplearn.js 是一个可用于机器智能并加速 WebGL 的开源 JavaScript 库。deeplearn.js 提供高效的机器学习构建模块，使我们能够在浏览器中训练神经网络或在推断模式中运行预训练模型。它提供构建可微数据流图的 API，以及一系列可直接使用的数学函数。2.2 Tensorflow serving:TensorFlow Serving 是一个用于机器学习模型 serving 的高性能开源库。它可以将训练好的机器学习模型部署到线上，使用 gRPC 作为接口接受外部调用。更加让人眼前一亮的是，它支持模型热更新与自动模型版本管理。这意味着一旦部署 TensorFlow Serving 后，你再也不需要为线上服务操心，只需要关心你的线下模型训练。2.3 Tensorflow lite:移动端在推断模式中运行预训练模型。Flatbuffers。 eager execution 及早执行：使对python语言更友好。 Cloud TPU:第一代：推理。第二代：训练+推理。脉动阵列（systolic array）系统。 数据处理：1.4版本: tf.data (之前版本为tf.contrib.data)异步多线程计算：Queue是TF队列和缓存机制的实现QueueRunner是TF中对操作Queue的线程的封装Coordinator是TF中用来协调线程运行的工具除了常用的feed，两个input接口:Dataset APIIterator API 高级API:1.4版本推出 tf.keras 有趣的方向：Magenta项目: 生成艺术作品 最后祝你，身体健康，再见！]]></content>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://houjiateng.com/"/>
-  <updated>2017-10-20T02:00:06.420Z</updated>
+  <updated>2017-10-23T10:59:33.749Z</updated>
   <id>http://houjiateng.com/</id>
   
   <author>
@@ -14,6 +14,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《经济学原理》 小记1</title>
+    <link href="http://houjiateng.com/2017/10/22/%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8E%9F%E7%90%86%E3%80%8B%20%E5%B0%8F%E8%AE%B01/"/>
+    <id>http://houjiateng.com/2017/10/22/《经济学原理》 小记1/</id>
+    <published>2017-10-22T08:52:35.000Z</published>
+    <updated>2017-10-23T10:59:33.749Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="经济学十大原理："><a href="#经济学十大原理：" class="headerlink" title="经济学十大原理："></a>经济学十大原理：</h1><h2 id="人们如何作出决策："><a href="#人们如何作出决策：" class="headerlink" title="人们如何作出决策："></a>人们如何作出决策：</h2><ol>
+<li>人们面临交替关系</li>
+<li>某些东西的成本是为了得到它所放弃的东西</li>
+<li>理性人考虑边际量</li>
+<li>人们会对激励作出反应</li>
+</ol>
+<h2 id="人们如何相互交易："><a href="#人们如何相互交易：" class="headerlink" title="人们如何相互交易："></a>人们如何相互交易：</h2><ol>
+<li>贸易能使每个人状况更好</li>
+<li>市场通常是组织经济活动的一种好方法</li>
+<li>政府有时可以改善市场结果</li>
+</ol>
+<h2 id="整个经济如何运行："><a href="#整个经济如何运行：" class="headerlink" title="整个经济如何运行："></a>整个经济如何运行：</h2><ol>
+<li>一国的生活水平取决于它生产物品与劳务的能力</li>
+<li>当政府发行过多货币时，物价上升</li>
+<li>社会面临通货膨胀与失业之间的短期交替关系</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;经济学十大原理：&quot;&gt;&lt;a href=&quot;#经济学十大原理：&quot; class=&quot;headerlink&quot; title=&quot;经济学十大原理：&quot;&gt;&lt;/a&gt;经济学十大原理：&lt;/h1&gt;&lt;h2 id=&quot;人们如何作出决策：&quot;&gt;&lt;a href=&quot;#人们如何作出决策：&quot; class=&quot;he
+    
+    </summary>
+    
+      <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="经济学" scheme="http://houjiateng.com/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>Tensorflow Fall Symposium 2017 小记</title>

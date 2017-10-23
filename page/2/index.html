@@ -81,7 +81,7 @@
 <meta name="description" content="Plain living and high thinking">
 <meta property="og:type" content="website">
 <meta property="og:title" content="MonDon">
-<meta property="og:url" content="http://houjiateng.com/tags/HTTP/index.html">
+<meta property="og:url" content="http://houjiateng.com/page/2/index.html">
 <meta property="og:site_name" content="MonDon">
 <meta property="og:description" content="Plain living and high thinking">
 <meta property="og:locale" content="zh-Hans">
@@ -115,13 +115,13 @@
 
 
 
-  <link rel="canonical" href="http://houjiateng.com/tags/HTTP/"/>
+  <link rel="canonical" href="http://houjiateng.com/page/2/"/>
 
 
 
 
 
-  <title> 标签: HTTP | MonDon </title>
+  <title> Hi, there - MonDon Plain living and high thinking </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -156,7 +156,9 @@
     
   
 
-  <div class="container sidebar-position-left  ">
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -293,47 +295,181 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-
-  <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        HTTP
-        <small>标签</small>
-      </h2>
-    </div>
-
+  <section id="posts" class="posts-expand">
     
       
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
 
-      <h1 class="post-title">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://houjiateng.com/2017/08/21/Tensorflow+Flask+Nginx+Gunicorn在阿里云的部署/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="MonDon">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MonDon">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2017/08/22/使用Flask为对答机器人写个RESTful API /" itemprop="url">
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
               
-                <span itemprop="name">使用Flask为对答机器人写个RESTful API</span>
+                
+                <a class="post-title-link" href="/2017/08/21/Tensorflow+Flask+Nginx+Gunicorn在阿里云的部署/" itemprop="url">
+                  Tensorflow+Flask+Nginx+Gunicorn 在阿里云的部署
+                </a>
               
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-21T16:52:35+08:00">
+                2017-08-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/学习/" itemprop="url" rel="index">
+                    <span itemprop="name">学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/08/21/Tensorflow+Flask+Nginx+Gunicorn在阿里云的部署/" class="leancloud_visitors" data-flag-title="Tensorflow+Flask+Nginx+Gunicorn 在阿里云的部署">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote>
+<p><strong>生命在于折腾！</strong><br> 　　　　 　<strong>-某网友</strong> </p>
+</blockquote>
+<p>最近在做一个基于Tensorflow seq2seq 模型的对答机器人项目。模型的训练已经在本地完成（ubuntu 16.04 + python 3.5 +Tensorflow 1.2.1），对答也可以在本地用命令行形式进行，但是我并不满足这样的一种“枯燥”的展示方式，毕竟生命在于折腾，我决定尝试下Web端展示。<br>因为是第一次做python web开发，所以我的原则是用什么学什么。在做了简单的调研后，我决定采用下面的方式部署：</p>
+<ul>
+<li>vps：阿里云（学生有特惠）</li>
+<li>Web框架：Flask（简单易上手）</li>
+<li>服务器：Gunicorn+Nginx（稳定有效）</li>
+</ul>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/08/21/Tensorflow+Flask+Nginx+Gunicorn在阿里云的部署/#more" rel="contents">
+              阅读全文 &raquo;
             </a>
+          </div>
+          <!--/noindex-->
         
-      </h1>
+      
+    </div>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-22T16:52:35+08:00"
-              content="2017-08-22" >
-          08-22
-        </time>
-      </div>
+    <div>
+      
+    </div>
 
-    </header>
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </article>
 
 
     
-  </div>
+  </section>
 
   
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
 
 
           </div>
