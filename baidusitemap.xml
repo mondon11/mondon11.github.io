@@ -4,6 +4,29 @@
 
     
   <url>
+    <loc>http://houjiateng.com/2017/09/13/%E9%9A%8F%E8%AE%B0/</loc>
+    <lastmod>2017-11-03T07:52:18.496Z</lastmod>
+    <data>
+        <display>
+        <title>随记</title>
+        <pubTime>2017-09-13T08:52:35.000Z</pubTime>
+        
+        <tag>统计</tag>
+         
+        <tag>正态分布</tag>
+         
+         
+           
+             
+              <breadCrumb title="其他" url="http://houjiateng.com/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://houjiateng.com/2017/10/27/%E6%84%BF%E4%BD%A0%E8%B5%B0%E5%87%BA%E5%8D%8A%E7%94%9F%EF%BC%8C%E5%BD%92%E6%9D%A5%E4%BB%8D%E6%98%AF%E5%B0%91%E5%B9%B4/</loc>
     <lastmod>2017-10-27T09:16:22.119Z</lastmod>
     <data>
@@ -81,28 +104,6 @@
            
              
               <breadCrumb title="学习" url="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://houjiateng.com/2017/09/13/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2017-10-17T06:15:37.937Z</lastmod>
-    <data>
-        <display>
-        <title>随记</title>
-        <pubTime>2017-09-13T08:52:35.000Z</pubTime>
-        
-        <tag>统计</tag>
-         
-        <tag>正态分布</tag>
-         
-         
-           
-             
-              <breadCrumb title="其他" url="http://houjiateng.com/categories/%E5%85%B6%E4%BB%96/"/>
           
         </display>
     </data>
@@ -226,7 +227,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://houjiateng.com/2017/08/29/%E5%88%A9%E7%94%A8python%20requests%E5%B8%AE%E4%BD%A0%E8%AF%84%E6%95%99%EF%BC%88%E5%9B%BD%E7%A7%91%E5%A4%A7%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F%EF%BC%89/</loc>
