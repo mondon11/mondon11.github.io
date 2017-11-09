@@ -256,9 +256,9 @@
         <title>使用Flask为对答机器人写个RESTful API</title>
         <pubTime>2017-08-22T08:52:35.000Z</pubTime>
         
-        <tag>Flask</tag>
-         
         <tag>RESTful</tag>
+         
+        <tag>Flask</tag>
          
         <tag>HTTP</tag>
          

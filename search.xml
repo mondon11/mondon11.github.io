@@ -126,8 +126,8 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>Flask</tag>
         <tag>RESTful</tag>
+        <tag>Flask</tag>
         <tag>HTTP</tag>
       </tags>
   </entry>
