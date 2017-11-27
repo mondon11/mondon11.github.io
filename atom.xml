@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://houjiateng.com/"/>
-  <updated>2017-10-27T09:16:22.119Z</updated>
+  <updated>2017-11-27T09:45:03.473Z</updated>
   <id>http://houjiateng.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>心灵强大是一种什么样的强大</title>
+    <link href="http://houjiateng.com/2017/11/27/%E5%BF%83%E7%81%B5%E5%BC%BA%E5%A4%A7%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E5%BC%BA%E5%A4%A7/"/>
+    <id>http://houjiateng.com/2017/11/27/心灵强大是一种什么样的强大/</id>
+    <published>2017-11-27T08:52:35.000Z</published>
+    <updated>2017-11-27T09:45:03.473Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>守信守时<br>将心比心<br>不焦急于等待<br>清醒的自省和认知<br>从心所欲而不逾矩<br>爱一个人坚定而长久<br>坚持自我又兼收并蓄<br>从不诅咒只是好奇理由<br>不喜形于色不溢于言表<br>内心坚韧而柔软强大且温柔<br>可以自己消化掉所有的负能量<br>事情没有成功之前不到处宣扬<br>对所有不完美的事物持包容态度<br>认清生活真相之后依然热爱生活<br>不选择拿语言去刺得别人鲜血淋漓<br>暗自努力而不是羡慕嫉妒别人拥有的<br>偶尔会失落会丧会玻璃心但可以很快满血<br>不是四处游说自己的不幸而是不动声色的痊愈<br>　　　　　　　　　　　　-<a href="https://www.zhihu.com/question/67997658/answer/262780746" target="_blank" rel="external">平易近人的国王</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;守信守时&lt;br&gt;将心比心&lt;br&gt;不焦急于等待&lt;br&gt;清醒的自省和认知&lt;br&gt;从心所欲而不逾矩&lt;br&gt;爱一个人坚定而长久&lt;br&gt;坚持自我又兼收并蓄&lt;br&gt;从不诅咒只是好奇理由&lt;br&gt;不喜形于色不溢于言表&lt;br&gt;内心坚韧而柔软强大且温柔&lt;br&gt;可以自己
+    
+    </summary>
+    
+      <category term="其他" scheme="http://houjiateng.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="杂记" scheme="http://houjiateng.com/tags/%E6%9D%82%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>愿你走出半生，归来仍是少年</title>
@@ -481,9 +507,9 @@
       <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
-    
       <category term="RESTful" scheme="http://houjiateng.com/tags/RESTful/"/>
+    
+      <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
     
       <category term="HTTP" scheme="http://houjiateng.com/tags/HTTP/"/>
     
