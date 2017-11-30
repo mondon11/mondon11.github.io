@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://houjiateng.com/"/>
-  <updated>2017-11-27T09:45:03.473Z</updated>
+  <updated>2017-11-30T10:06:42.210Z</updated>
   <id>http://houjiateng.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>提得起来，就是我们的</title>
+    <link href="http://houjiateng.com/2017/11/30/%E6%8F%90%E5%BE%97%E8%B5%B7%E6%9D%A5%EF%BC%8C%E5%B0%B1%E6%98%AF%E6%88%91%E4%BB%AC%E7%9A%84/"/>
+    <id>http://houjiateng.com/2017/11/30/提得起来，就是我们的/</id>
+    <published>2017-11-30T08:52:35.000Z</published>
+    <updated>2017-11-30T10:06:42.210Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>《台北闹饥荒》 林清玄<br>     每次回到乡下老家，要返回台北的时候，妈妈总是塞很多东西到我的行李箱里，一<br>直到完全塞不下为止，那种情况就好像台北正在闹饥荒。<br>     “妈，你什么都不用带，台北什么都有。”我说。<br>     妈妈总是这样回答：“骗你的！台北什么都有，台北又不是极乐世界。”<br>     我把芭乐、橘子、哈密瓜拿出来，说：“至少，这些水果都有。”<br>     妈妈又帮我塞进去，说：“我们乡下的较好吃，也较便宜。”<br>     我把一大包肉干、肉松，肉脯拿出来，说：“我们家楼下就有新东阳呀！”<br>     她又帮我塞进去，说：“你是知道什么？我要买给我孙子吃的，又不是买给你吃，<br>何况人家这些都是手工做的呢！”<br>     我看拗不过她，把最后希望放在皮箱里的六罐汽水和可乐上，我说：“这汽水可以<br>不要带吧！”<br>     她说：“这是我在福利中心买的，一罐和外面的差十元，带着、带着，路上口渴可<br>以喝。”<br>     “这重成这样！”我说。<br>     妈妈眼睛一亮，说：“你小时最喜欢喝汽水了，常常偷桌下的汽水来喝……”<br>     我立刻打断她的话，说：“我带，我。”因为我知道接下来她会把我小时候的粮事<br>一一拿出来说，一直到我投降为止。<br>     这时，妈妈看我不再抗争了，终于满意地拍着我的行李箱，眼神悠远地说着：“提<br>得起来，就是我们的。”<br>     然后，我们就陷进沉默，因为，“提得起来，就是我们的”正是我爸爸生前的口头<br>禅，当妈妈这样说，我们都不约而同地想起爸爸。<br>     坐火车回台北的路上，我想到自从父亲过世，妈妈把所有的爱都投射在我们身上，<br>她才不管我们是几十岁的人，以为我们都是需要照护的孩子。<br>     我想起父亲的口头禅“提得起来，就是我们的”，现在已经轮到妈妈说了。<br>     对于父母亲的爱，我们也是“提得起来，就是我们的”，趁还提得动，行李箱还有<br>空间，就多塞一点爱进去吧！</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;《台北闹饥荒》 林清玄&lt;br&gt;     每次回到乡下老家，要返回台北的时候，妈妈总是塞很多东西到我的行李箱里，一&lt;br&gt;直到完全塞不下为止，那种情况就好像台北正在闹饥荒。&lt;br&gt;     “妈，你什么都不用带，台北什么都有。”我说。&lt;br&gt;    
+    
+    </summary>
+    
+      <category term="其他" scheme="http://houjiateng.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="散文" scheme="http://houjiateng.com/tags/%E6%95%A3%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>心灵强大是一种什么样的强大</title>
@@ -507,9 +533,9 @@
       <category term="学习" scheme="http://houjiateng.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="RESTful" scheme="http://houjiateng.com/tags/RESTful/"/>
-    
       <category term="Flask" scheme="http://houjiateng.com/tags/Flask/"/>
+    
+      <category term="RESTful" scheme="http://houjiateng.com/tags/RESTful/"/>
     
       <category term="HTTP" scheme="http://houjiateng.com/tags/HTTP/"/>
     
